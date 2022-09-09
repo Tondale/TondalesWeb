@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Tondale's Web</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="astyle.css">
+    </head>
+    <body>
+    <section class="header">
+	    <nav>
+            <a href="tondale's.html"><img src="images/logo.png"></a>
+            <div class="nav-un" id="navlinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                      <li><a href="tondale's.html">HOME</a></li>
+                      <li><a href="about.html">ABOUT</a></li>
+                      <li><a href="courses.html">COURSE</a></li>
+                      <li><a href="blog.html">BLOG</a></li>
+                      <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+             </div> 
+                 <i class="fa fa-bars"  onclick="showMenu()"></i>
+         </nav>  
+         <div class="text-box2">
+            <h1>About Us</h1>
+       
+       </div>                  
+    </section> 
+
+    <!--------Ab1------->
+    <section class="Ab1">
+        <h1>We Are The World's Largest University</h1>
+    </section>
+
+
+    
+    
+    <!--------Javascript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navlinks");
+        function showMenu(){
+        navLinks.style.right= "0";
+        }
+        function hideMenu(){
+        navLinks.style.right= "-210px";
+        }
+        
+  </script>	
+		
+    </body>
+</html>
